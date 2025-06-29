@@ -88,7 +88,7 @@ if __name__ == "__main__":
     parser.add_argument("--image_suffix", type=str, default=".png")
     args = parser.parse_args()
     
-    device = "cuda:0"
+    device = args.device
     weight_dtype = torch.float16
     pretrained_model_path = args.pretrained_model_path
     output_dir = args.output_dir 
