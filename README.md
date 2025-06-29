@@ -28,7 +28,7 @@ Please manually download the Stable Diffusion 3 model weights from the official 
 ├──── scheduler
 ```
 
-## Downloading DNF-Intrinisc Lora model
+## Downloading DNF-Intrinsic Lora model
 Download the checkpoint folder from https://drive.google.com/drive/folders/1mTHbkTY-58iewCMp_KOxD5wq98PpwoJe?usp=drive_link
 ```
 ├── checkpoint                  
