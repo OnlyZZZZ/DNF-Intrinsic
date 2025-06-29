@@ -12,7 +12,7 @@
 pip install -r requirement.txt
 ```
 
-## Downloading stable-diffusion-3 
+## Download stable-diffusion-3 
 Please manually download the Stable Diffusion 3 model weights from the official Hugging Face repository at: https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers/
 ```
 ├── stable-diffusion-3-medium-diffusers                  
@@ -28,7 +28,7 @@ Please manually download the Stable Diffusion 3 model weights from the official 
 ├──── scheduler
 ```
 
-## Downloading DNF-Intrinsic Lora model
+## Download DNF-Intrinsic Lora model
 Download the checkpoint folder from https://drive.google.com/drive/folders/1mTHbkTY-58iewCMp_KOxD5wq98PpwoJe?usp=drive_link
 ```
 ├── checkpoint                  
