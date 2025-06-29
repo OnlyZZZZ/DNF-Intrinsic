@@ -90,12 +90,12 @@ if __name__ == "__main__":
     
     device = "cuda:0"
     weight_dtype = torch.float16
-    pretrained_model_path = args.pretrained_model_path # "/mnt/Datasets/Opensource_pretrained_models/Stable_Diffusion/stable-diffusion-3-medium-diffusers/"
-    output_dir = args.output_dir #"./test_output"
-    data_root = args.input_dir #"./test_input/"
-    save_path = args.peft_model_path #"./checkpoint-epoch-75"
-    num_inference_steps = args.num_inference_steps #10
-    image_suffix = args.image_suffix #".png"
+    pretrained_model_path = args.pretrained_model_path
+    output_dir = args.output_dir 
+    data_root = args.input_dir 
+    save_path = args.peft_model_path 
+    num_inference_steps = args.num_inference_steps 
+    image_suffix = args.image_suffix 
     
     # Tokenizers
     tokenizer1 = CLIPTokenizer.from_pretrained(pretrained_model_path, subfolder="tokenizer")
