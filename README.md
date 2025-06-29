@@ -8,12 +8,15 @@
 ```
 
 ## Installation
+```
 pip install -r requirement.txt
+```
 
 ## Downloading stable-diffusion-3 checkpoint
 Please manually download the Stable Diffusion 3 model weights from the official Hugging Face repository at: https://huggingface.co/stabilityai/stable-diffusion-3-medium-diffusers/
 
 ## Inference
+```
 python infer.py \
 --pretrained_model_path "./stable-diffusion-3-medium-diffusers/" \
 --input_dir ./test_input \
@@ -21,3 +24,4 @@ python infer.py \
 --peft_model_path ./checkpoint \
 --num_inference_steps 10 \
 --device cuda:0
+```
