@@ -1,0 +1,6 @@
+torch==2.5.1
+diffusers==0.33.1
+transformers==4.44.2
+peft==0.15.2
+tqdm
+pillow
