@@ -125,7 +125,7 @@ if __name__ == "__main__":
 
     os.makedirs(output_dir, exist_ok=True)
     data_list = [f[:-4] for f in os.listdir(data_root) if f.endswith(image_suffix)]
-    targets = ['albedo', 'normal', 'depth', 'metallic', 'roughness']
+    targets = ['albedo'] # 'metallic', 'roughness', 'depth', 'normal'
 
     with torch.no_grad():
         for img_name in tqdm(data_list):
