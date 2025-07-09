@@ -1,4 +1,6 @@
-## This is official code of DNF-Intrinsic: Deterministic Noise-Free Diffusion for Indoor Inverse Rendering (ICCV2025).
+# DNF-Intrinsic: Deterministic Noise-Free Diffusion for Indoor Inverse Rendering.
+## [Paper](https://arxiv.org/pdf/2507.03924)
+This is official code of [DNF-Intrinsic: Deterministic Noise-Free Diffusion for Indoor Inverse Rendering](https://arxiv.org/pdf/2507.03924).
 ## Structure
 ```
 ├── test_input                  <- Place the input images here
